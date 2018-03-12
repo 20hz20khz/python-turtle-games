@@ -7,6 +7,8 @@ I have two students that prefer IDLE, but every once in a while we notice slight
 ## Turtle Game v1
 Here is a student project for v1.0
 
+![](turtlev1.gif)
+
 We originally had a requirement that you had to collect the coin, delete the coin, and then touch the goal. Once the player distance to the coin was below a mininum, we would delete coin, but this would case an error when the code looped around and once again tried to determine the distance to the coin. We used try/except to handle this, but some of the students struggled with try/except, so I modified the project so that there is no goal and you simply have to touch the coin to win v1.
 
 #### V1 Details
@@ -36,6 +38,8 @@ player.distance(enemy) < 20
 ## Turtle Game v2
 Here is a student's v2
 
+![](turtlev2.gif)
+
 Some students kept it really simple with Turtles named p1, p2, bad1, bad2, coin, and goal. Other students created arrays of badguys and arrays of coins. It was much easier to delete a coin from an array and not worry about getting an error.
 
 #### V2 Details
@@ -53,6 +57,8 @@ Once you're finished with Turtle game v1.0... **DUPLICATE YOUR GAME, rename it v
 
 ## Turtle Game v3
 Here is a student's v3
+
+![](turtlev3.gif)
 
 Some games switched back to a single player, but others stayed 2-player. The core idea with v3 is that the game resets when you reach the goal and gets progressively harder each time (adding more enemies and speeding up the game slightly).
 

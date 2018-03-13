@@ -49,7 +49,7 @@ Once you're finished with Turtle game v1.0... **DUPLICATE YOUR GAME, rename it v
 
 2.	Create a turtle called writer. Hide it and put its pen up.
 
-3.	Create a function called writeScore(). In this function, have writer clear previous writing ( writer.clear() ), go to one corner, write the score for player 1, go to a different corner, write the score for player 2.
+3.	Create a function called writeScore(). In this function, have writer clear previous writing ( `writer.clear()` ), go to one corner, write the score for player 1, go to a different corner, write the score for player 2.
 
 4.	Create one or more enemies that will follow player 2. In other words... you'll have enemies that chase p1 and different enemies that chase p2.
 
@@ -91,7 +91,7 @@ You *might* want to change the controls (or not). You can continue using Turtle 
 The only requirements are the ones listed below:
 
 1.	Create a multi-line comment at the top of you code with your name, date, and directions. Your directions must explain the way to win OR way to make it to the next level. For example... reach the goal without dying OR reach the goal before the other player OR collect more coins than the other player OR collect all of the coins without dying. 
-2.	Add a new file, name it wall.py, and copy/paste THIS CODE. Use the Wall class to create 1 or more walls/platforms.
+2.	Add a new file, name it `wall.py`, and copy/paste [THIS CODE](). Use the Wall class to create 1 or more walls/platforms.
 3.	Your player(s) and enemies cannot walk through walls/platforms.
 4.	Use an image in the background. <https://blog.trinket.io/using-images-in-turtle-programs/>
 5.	Use images for all of your sprites (no more boring trianges/squares/etc) <https://blog.trinket.io/using-images-in-turtle-programs/> Hint: search for images with the Exact Size 20x20 (or Exact Size 32x32) and Color Transparent
